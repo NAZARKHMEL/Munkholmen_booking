@@ -39,7 +39,7 @@ class _BookingFormState extends State<BookingForm> {
 
     try {
       final response = await http.post(
-        Uri.parse('https://7c07-2001-4650-24fd-0-4f9-a2a4-7573-c7f7.ngrok-free.app/check-pin'),
+        Uri.parse('https://d52b-2001-4650-24fd-0-497c-c8a9-476d-232b.ngrok-free.app/check-pin'),
         headers: {'Content-Type': 'application/json'},
         body: json.encode({'room_id': roomId, 'pin_code': pinCode}),
       );
